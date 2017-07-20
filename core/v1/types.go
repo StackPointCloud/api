@@ -1310,7 +1310,7 @@ type DOVolumeSource struct {
 	// Specify "true" to force and set the ReadOnly property in VolumeMounts to "true".
 	// If omitted, the default is "false".
 	// +optional
-	ReadOnly bool `json:"readOnly,omitempty" protobuf:"varint,4,opt,name=readOnly"`
+	ReadOnly bool `json:"readOnly,omitempty" protobuf:"varint,3,opt,name=readOnly"`
 }
 
 // Adapts a ConfigMap into a volume.
